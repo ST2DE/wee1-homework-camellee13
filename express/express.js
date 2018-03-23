@@ -7,7 +7,7 @@ app.get('/', function(req, res){
 
 
 app.get('/about_me', function(req, res) {
-	res.sendFile('index.html');
+	res.sendFile('index.html' , { root : __dirname});
 });
 
 app.get('/about', function(req, res) {
