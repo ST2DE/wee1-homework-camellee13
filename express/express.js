@@ -14,7 +14,7 @@ app.get('/', function(req, res){
 //});
 
 app.get('/about', function(req, res) {
-	res.send(JSON.stringify(req.query.name) +', Hello!');
+	res.send(req.query.name +', Hello!');
 });
 
 
