@@ -40,15 +40,15 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c
+    background-color: #FF9181;
 }
 
 hr.star-dark {
-    border-color: #2c3e50
+    border-color: #555;
 }
 
 hr.star-dark:after {
-    color: #2c3e50;
+    color: #555;
     background-color: #fff
 }
 
@@ -115,7 +115,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #18bc9c
+    color: #FF9181;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -124,7 +124,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #18bc9c
+    color: #FF9181;
 }
 
 #mainNav .navbar-toggler {
@@ -151,13 +151,13 @@ section h2 {
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
         color: #fff;
-        background: #18bc9c
+        background: #FF9181;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
         color: #fff;
-        background: #18bc9c
+        background: #FF9181;
     }
     #mainNav.navbar-shrink {
         padding-top: .5rem;
@@ -316,7 +316,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c
+    color: #FF9181;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -326,16 +326,16 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #2c3e50;
+    background-color: #555;
     color: #fff
 }
 
 .copyright {
-    background-color: #1a252f
+    background-color: #333;
 }
 
 a {
-    color: #18bc9c
+    color: #FF9181;
 }
 
 a:active,
@@ -349,24 +349,24 @@ a:hover {
 }
 
 .bg-primary {
-    background-color: #18bc9c!important
+    background-color: #FF9181!important
 }
 
 .bg-secondary {
-    background-color: #2c3e50!important
+    background-color: #555!important
 }
 
 .text-primary {
-    color: #18bc9c!important
+    color: #FF9181!important
 }
 
 .text-secondary {
-    color: #2c3e50!important
+    color: #555!important
 }
 
 .btn-primary {
-    background-color: #18bc9c;
-    border-color: #18bc9c
+    background-color: #FF9181;
+    border-color: #FF9181;
 }
 
 .btn-primary:active,
@@ -377,8 +377,8 @@ a:hover {
 }
 
 .btn-secondary {
-    background-color: #2c3e50;
-    border-color: #2c3e50
+    background-color: #555;
+    border-color: #555;
 }
 
 .btn-secondary:active,
