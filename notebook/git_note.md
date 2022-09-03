@@ -208,7 +208,7 @@ $git add '*.txt'
 
 ## 如果add或commit之後反悔?
 
-> [Reference](http://oomusou.io/git/remove-stage/)
+> [Reference](http://old-oomusou.goodjack.tw/git/remove-stage/)
 
 1.  若該檔案不在repository內: git rm –cached 檔案名稱
 2.  若檔案已經在repository內: git reset HEAD 檔案名稱
